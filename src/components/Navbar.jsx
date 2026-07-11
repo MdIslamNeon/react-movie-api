@@ -8,16 +8,16 @@ function Navbar() {
       <header className="site-header">
         <div className="header-container">
           <Link to='/' className="logo">  
-              OMDb API
+              OMDb Movies
           </Link>
           <nav className="nav-menu">
             <a href="/" className="nav-link">
               Home
             </a>
-            <a href="#" className="nav-link">
+            <a href="/" className="nav-link">
               Find your movie
             </a>
-            <a href="#" className="btn-contact">
+            <a href="/" className="btn-contact">
               Contact
             </a>
           </nav>

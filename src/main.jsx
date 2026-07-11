@@ -2,10 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons/faMagnifyingGlass'
+import { faMagnifyingGlass, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import './index.css'
 
-library.add(faMagnifyingGlass)
+library.add(faMagnifyingGlass, faArrowLeft)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

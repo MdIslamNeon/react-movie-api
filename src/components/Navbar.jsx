@@ -1,16 +1,17 @@
 import React from "react";
 import "../index.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
       <header className="site-header">
         <div className="header-container">
-          <a href="#" className="logo">
-            OMDb API
-          </a>
+          <Link to='/' className="logo">  
+              OMDb API
+          </Link>
           <nav className="nav-menu">
-            <a href="#" className="nav-link">
+            <a href="/" className="nav-link">
               Home
             </a>
             <a href="#" className="nav-link">

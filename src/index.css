@@ -175,3 +175,69 @@ select {
   align-items: center;
   justify-content: space-around;
 }
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;      
+  justify-content: center;  
+}
+
+.link-movie-info {
+  text-decoration: none;
+  color: black
+}
+
+.movie-info {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.movie-info__poster {
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.movie-info__details {
+  flex: 1;
+  min-width: 260px;
+  color: #333333;
+}
+
+.movie-info__details h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.movie-info__details h1 span {
+  color: #888;
+  font-weight: 400;
+}
+
+.movie-info__meta {
+  color: #888;
+  font-size: 14px;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.movie-info__details p {
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+
+.movie-info__details b {
+  color: #111;
+}

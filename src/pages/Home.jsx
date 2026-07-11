@@ -3,9 +3,6 @@ import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import "../index.css";
-
-// const apiKey = import.meta.env.VITE_MY_API_KEY;
 
 function Home() {
 

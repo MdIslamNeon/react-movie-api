@@ -12,7 +12,7 @@ function Movies() {
 
   async function fetchAllMovies() {
     const { data } = await axios.get(
-      `http://www.omdbapi.com/?apikey=${apiKey}&s=${searchItem}`,
+      `https://www.omdbapi.com/?apikey=${apiKey}&s=${searchItem}`,
     );
     setMovies(data.Search);
   }

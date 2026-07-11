@@ -11,15 +11,15 @@ function Navbar() {
               OMDb Movies
           </Link>
           <nav className="nav-menu">
-            <a href="/" className="nav-link">
+            <Link to="/" className="nav-link">
               Home
-            </a>
-            <a href="/" className="nav-link">
+            </Link>
+            <Link to="/" className="nav-link">
               Find your movie
-            </a>
-            <a href="/" className="btn-contact">
+            </Link>
+            <Link to="/" className="nav-link">
               Contact
-            </a>
+            </Link>
           </nav>
         </div>
       </header>

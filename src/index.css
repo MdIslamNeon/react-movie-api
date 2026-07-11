@@ -251,6 +251,7 @@ button {
 
 .user-card__container h3 {
   margin: 0 0 8px;
+  margin-top: 10px;
   font-size: 16px;
   color: var(--text);
   line-height: 1.3;

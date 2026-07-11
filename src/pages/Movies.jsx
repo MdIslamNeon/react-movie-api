@@ -21,11 +21,11 @@ function Movies() {
     fetchAllMovies();
   }, []);
 
-  function filterMovies(filter) {
-    if (filter === "OLD_TO_NEW") {
-      movies.sort((a, b) => a.Year - b.Year);
-    } else if (filter === "NEW_TO_OLD") {
-      movies.sort((a, b) => b.Year - a.Year);
+  function filterMovies(event) {
+    if (event.target.value === "OLD_TO_NEW") {
+      setMovies([...movies].sort((a, b) => a.Year - b.Year));
+    } else if (event.target.value === "NEW_TO_OLD") {
+      setMovies([...movies].sort((a, b) => b.Year - a.Year));
     }
   }
 
